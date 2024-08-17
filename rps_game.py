@@ -33,16 +33,16 @@ def output(c, p):
 
 def game(c, p):
     if c == "Paper" and p == "Rock":
-        return "Computer win\nPaper wraps Rock"
+        return "Computer win\nPaper wraps Rock."
     elif c == "Rock" and p == "Paper":
-        return "Player win\nPaper wraps Rock"
+        return "Player win\nPaper wraps Rock."
     elif c == "Rock" and p == "Scissors":
-        return "Computer win\nRock smashes Scissors"
+        return "Computer win\nRock smashes Scissors."
     elif c == "Scissors" and p == "Rock":
-        return "Player win\nRock smashes Scissors"
+        return "Player win\nRock smashes Scissors."
     elif c == "Scissors" and p == "Paper":
-        return "Computer win\nScissors cut Paper"
+        return "Computer win\nScissors cut Paper."
     elif c == "Paper" and p == "Scissors":
-        return "Player win\nScissors cut Paper"
+        return "Player win\nScissors cut Paper."
     elif c == p:
-        return "tie"
+        return "Tie try again."
